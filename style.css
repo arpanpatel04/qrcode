@@ -1,0 +1,51 @@
+*{
+    padding: 0%;
+    margin: 0;;
+    box-sizing: border-box;
+}
+:root{
+    --radius: 10px;
+}
+body{
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    
+}
+main{
+    padding: 20px;
+    width: 60%;
+ 
+  
+    background-color: aqua;
+    border-radius: var(--radius);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow: hidden;
+}
+.show{
+    height: 400px;
+
+}
+input{
+    padding: 20px;
+    font-size: 30px;
+    border: 2px solid black;
+    border-radius: var(--radius);
+
+}
+button{
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: var(--radius);
+    
+}
+.qrbox{
+    text-align: center;
+    border: 2px solid black;
+    border-radius: var(--radius);
+     
+}
